@@ -61,7 +61,6 @@ while True:
 
     mask = mask0+mask1
 
-    # check
     hasRed = np.sum(mask)
     if hasRed > 0:
 
