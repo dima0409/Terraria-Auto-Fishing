@@ -68,12 +68,12 @@ while True:
     else:
 
 
-        # get the stuff
+        
         print("Catch! ...")
         time.sleep(0.3)
         click()
 
-        time.sleep(1) # wait some
+        time.sleep(1) 
         print("New rod dropped ...")
         click()
 
