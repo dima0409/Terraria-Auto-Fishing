@@ -61,6 +61,7 @@ while True:
 
     mask = mask0+mask1
 
+
     hasRed = np.sum(mask)
     if hasRed > 0:
 
@@ -68,12 +69,12 @@ while True:
     else:
 
 
-        
         print("Catch! ...")
         time.sleep(0.3)
         click()
 
-        time.sleep(1) 
+
+        time.sleep(1)
         print("New rod dropped ...")
         click()
 
